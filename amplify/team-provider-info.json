@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify0c149f5e4b2c4-staging-85833-authRole",
+      "UnauthRoleArn": "arn:aws:iam::001312463206:role/amplify-amplify0c149f5e4b2c4-staging-85833-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::001312463206:role/amplify-amplify0c149f5e4b2c4-staging-85833-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-amplify0c149f5e4b2c4-staging-85833-deployment",
+      "UnauthRoleName": "amplify-amplify0c149f5e4b2c4-staging-85833-unauthRole",
+      "StackName": "amplify-amplify0c149f5e4b2c4-staging-85833",
+      "StackId": "arn:aws:cloudformation:us-east-2:001312463206:stack/amplify-amplify0c149f5e4b2c4-staging-85833/339b4030-4f60-11ec-8462-068f3b30bbfe",
+      "AmplifyAppId": "d3jalyszojuez3"
+    }
+  }
+}

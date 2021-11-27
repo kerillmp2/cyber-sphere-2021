@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "cybersphere2021",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\User12\\Desktop\\cyber-shpere-2020\\cyber-sphere-2021\\amplify\\backend\\api\\cybersphere2021\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
