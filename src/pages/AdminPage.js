@@ -30,7 +30,7 @@ export default class AdminPage extends React.Component {
                 <p>Класс</p>
                 <p>Ответ</p>
                 <p>Время total</p>
-                <p>Время Команды</p>
+                <p>Время  Команды</p>
                 <p>Верно?</p>
                 <br/>
                 {
