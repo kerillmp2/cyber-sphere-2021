@@ -19,35 +19,10 @@ export default function WelcomePage(props) {
     return (
         <div className="h-100 bg-peach">
             <div className="bg-peach p-4">
-                <form className="my-form" onSubmit={handleSubmit(registerSubmit)}>
-                    <div>
-                        <label>Название команды:</label>
-                        <input name="name" ref={register({required: true, maxLength: 128})}/>
-                        <div className="error">
-                            {errors.name && errors.name.type === "required" && (<p>Введите название команды!</p>)}
-                            {errors.name && errors.name.type === "maxLength" && (
-                                <p>Название команды не должно превышать 128 символов!</p>)}
-                        </div>
-                    </div>
-                    <div className="mt-3">
-                        <label className="mr-3">Класс:</label>
-                        <select name="class" ref={register({required: true})}>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                        </select>
-                        <div className="error">
-                            {errors.class && errors.class.type === "required" && (<p>Выберите класс!</p>)}
-                        </div>
-
-                        <div>
-                            <button type="submit" className="bg-purple w-100">НАЧАТЬ</button>
-                        </div>
-                    </div>
-                </form>
+                <div className="bg-peach p-4 text-center">
+                    <h2 className="mt-4">Добро пожаловать на дистанционный тур!</h2>
+                    <h3 className="mt-3">Тур будет доступен 02.12 с 09:00</h3>
+                </div>
             </div>
             <Footer />
         </div>

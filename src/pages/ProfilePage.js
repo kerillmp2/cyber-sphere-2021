@@ -5,59 +5,97 @@ import {Row, Col} from "react-bootstrap";
 import Post from "../components/Post";
 import Footer from "../components/Footer";
 
-import avatarImage from "../img/avatar-image.jpg"
-import ny2020 from "../img/posts/ny2020.jpg"
-import ny2019 from "../img/posts/ny2019.jpg"
-import ny2018 from "../img/posts/ny2018.jpg"
-import notes from "../img/posts/notes.png"
-import ship from "../img/posts/ship.jpg"
-import shpic from "../img/posts/shpic.jpg"
-import hb2019 from "../img/posts/hb2019.jpg"
-import books from "../img/posts/books.jpg"
-import baikal from "../img/posts/baikal.jpg"
-import cinema from "../img/posts/cinema.jpg"
-import things from "../img/posts/things.jpg"
-import train from "../img/posts/train.jpg"
+import avatarImage from "../img/avatar.jpg"
+import post_1 from "../img/posts/post_1.jpg"
+import post_2 from "../img/posts/post_2.jpg"
+import post_run from "../img/posts/run.jpg"
+import post_book from "../img/posts/book.jpeg"
+import post_school from "../img/posts/school.jpg"
+import post_book_2 from "../img/posts/book.jpg"
+import post_plane from "../img/posts/plane.jpg"
+import post_cake from "../img/posts/cake.jpg"
+import post_popcorn from "../img/posts/popcorn.jpg"
+import post_tulen from "../img/posts/tulen.jpg"
+import post_cookie from "../img/posts/cookie.jpg"
+import post_square from "../img/posts/black_square.jpg"
+import post_algebra from "../img/posts/algebra.jpg"
+import post_summer from "../img/posts/summer.jpg"
 
 export default class ProfilePage extends React.Component {
     render() {
 
         let posts = (<div>
-            <Post date="04/17/2020" innerText='Если вы есть – будьте первыми,'
-                  secondRow='Первыми, кем бы вы ни были.' thirdRow='Из песен - лучшими песнями,'
-                  fouthRow='Из книг - настоящими книгами' fifthRow='(C) Роберт Рождественский'/>
+            <Post date="30/11/2021" innerText='Мой брат в эту субботу участвует в олимпиаде по'
+                  secondRow='кибербезопасности! Пожелаем ему удачи!'/>
 
-            <Post date="02/02/2020" innerText='Сегодня, в мой день рождения, мне подарили'
-                  secondRow='нового друга! Знакомьтесь, Арчибальд!' image={shpic}/>
-            <Post date="01/01/2020" innerText='Поздравляю всех с Новым Годом!'
-                  secondRow='Надеюсь, 2020-й принесёт всем радость и счастье!' image={ny2020}/>
+            <Post date="01/11/2021" innerText='Нас опять перевели на дистанционку...'
+                  secondRow='#КовидУходи' image={post_1}/>
 
-            <Post date="19/07/2019" innerText='Сегодня с друзьями посмотрели фильм "Прятки".'
-                  secondRow='Всем срочно в кино!!!' image={cinema}/>
+            <Post date="18/10/2021" innerText='А какой сегодня завтрак у вас?'
+                  secondRow='#ЗОЖ' image={post_2}/>
 
-            <Post date="28/05/2019" innerText='Как вы боьлше любите путешествовать?'
-                  secondRow='Мне больше всего нравятся поезда' image={train}/>
+            <Post date="04/10/2021" innerText='Хоть уже и прохладно, я продолжаю бегать по утрам!'
+                  secondRow='#ЗОЖ' image={post_run}/>
 
-            <Post date="02/02/2019" innerText='Вот и наступил мой очередной день рождения!'
-                  secondRow='Огромное спасибо всем, кто меня поздравил!' image={hb2019}/>
+            <Post date="26/09/2021" innerText='Все важные фразы должны быть тихими,'
+                  secondRow='Все фото с родными всегда не резкие'
+                  thirdRow='Самые странные люди всегда великие,'
+                  fouthRow='А причины для счастья всегда не веские'
+                  fifthRow='(С) Ок Мельникова'
+                  image={post_book}/>
 
-            <Post date="01/24/2019" innerText='Год только начался, а на учёбе уже завал...' image={books}/>
+            <Post date="01/09/2021" innerText='Если честно, за лето я уже немного соскучилась'
+                  secondRow='по школе. Встретимся на уроках!'
+                   image={post_school}/>
 
-            <Post date="01/01/2019" innerText='Ух, тяжёлый был 2018-й...'
-                  secondRow='Поздравляю всех с Новым 2019-ым годом!' image={ny2019}/>
+            <Post date="31/08/2021" innerText='Ставьте лайк, если тоже прочитали весь список'
+                  secondRow='литературы на лето!'
+                  thirdRow='Мне больше всего понравилась пьеса "Ревизор"'
+                  fouthRow='Николая Васильевича Гоголя.'
+                  image={post_book_2}/>
 
-            <Post date="22/07/2018" innerText='Вчера вернулись из поездки на Байкал)'
-                  secondRow='Самое живописное место, которое я посещала!' image={baikal}/>
+            <Post date="16/08/2021" innerText='После отдыха возвращаюсь в родной Ижевск!'
+                  secondRow='Готова со всеми встретиться и поделиться'
+                  thirdRow='впечатлениями о поездке)'/>
 
-            <Post date="14/04/2018" innerText='' image={things}/>
+            <Post date="4/08/2021" innerText='Друзья, меня несколько дней не будет,'
+                  secondRow='улетаю с семьей в Европу!'
+                  thirdRow='Не теряйте'
+                  image={post_plane}/>
 
-            <Post date="02/02/2018" innerText='Сегодня мне исполнилось 15 лет!'
-                  secondRow='Такими темпами скоро школу закончу)' image={hb2019}/>
-            <Post date="01/01/2018" innerText='Всем удачи в Новом 2018-ом году!' image={ny2018}/>
+            <Post date="15/07/2021" innerText='С днём рождения меня!'
+                  secondRow='Спасибо всем огромное за поздравления!'
+                  image={post_cake}/>
 
-            <Post date="14/11/2017" innerText='Сходили сегодня с сестрой на фильм'
-                  secondRow='"Пираты Балтийского моря 3". Всем советую!' image={ship}/>
-            <Post date="05/11/2017" innerText='Мой первый день в социальных сетях!' image={notes}/>
+            <Post date="11/07/2021" innerText='Так давно не была в кино... Сходили с братом на'
+                  secondRow='фильм "Далёкие миры Атлантиды", и нам обоим'
+                  thirdRow='очень понравилось!'
+                  fouthRow='Кстати, какой ваш любимый вкус попкорна?'
+                  fifthRow='Мой определённо сырный)'
+                  image={post_popcorn}/>
+
+            <Post date="22/06/2021" innerText='Я прошла тест "Какой вы житель океана?"'
+                  secondRow='И знаете что? Я тюлень!'
+                  thirdRow='Почему-то я даже не удивлена'
+                  image={post_tulen}/>
+
+            <Post date="20/06/2021" innerText='Зачем пытаться понять искусство?'
+                  secondRow='Вы же не пытаетесь понять, о чем поет птица.'
+                  thirdRow='(С) Пабло Пикассо'
+                  image={post_square}/>
+
+            <Post date="06/06/2021" innerText='Обязательно послушайте новый альбом группы'
+                  secondRow='"Печенье с шоколадом"!'
+                  thirdRow='Я их преданный фанат)'
+                  image={post_cookie}/>
+
+            <Post date="01/06/2021" innerText='Лето? Каникулы? Море?'
+                  secondRow='Да! Да! И ещё раз да!'
+                  image={post_summer}/>
+
+            <Post date="26/05/2021" innerText='Не думала, что под конец учебного года'
+                  secondRow='мне понравится алгебра!'
+                  image={post_algebra}/>
         </div>);
 
         return (
@@ -67,13 +105,13 @@ export default class ProfilePage extends React.Component {
                         <Row className="justify-content-md-center">
                         <Col md="auto">
                             <Image className="ml-2 mt-4" height="300px" src={avatarImage} rounded/>
-                            <div style={{fontSize: 20}} className="font-weight-bold m-2 text-center">Анна Озёрская</div>
+                            <div style={{fontSize: 20}} className="font-weight-bold m-2 text-center">Дарья Горная</div>
                         </Col>
                     </Row>
                 </div>
                 <Row className="justify-content-md-center mt-4">
                     <Col md="auto">
-                        <h2 className="text-center mb-3">Последние записи Анны:</h2>
+                        <h2 className="text-center mb-3">Последние записи Дарьи:</h2>
                         {posts}
                     </Col>
                 </Row>

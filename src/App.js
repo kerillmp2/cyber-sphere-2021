@@ -3,7 +3,7 @@ import React from "react";
 import DBConnection from "./features/DBConnection";
 
 function App() {
-    return (
+    return (    
         <div className="h-100 bg-peach">
             <DBConnection/>
         </div>

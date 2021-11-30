@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/cyber-2020-logo.png"
+import logo from "../img/logo.png"
 import {Col, Row} from "react-bootstrap";
 import Image from "react-bootstrap/cjs/Image";
 

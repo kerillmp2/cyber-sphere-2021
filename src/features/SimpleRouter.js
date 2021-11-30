@@ -99,13 +99,9 @@ export default class SimpleRouter extends React.Component {
             )
         }
 
-        let msg = null
-
-        if (this.state.class > 2) {
-            msg = <Route path="/messages">
-                <MessagesPage class={this.state.class}/>
-            </Route>
-        }
+        let msg = <Route path="/messages">
+            <MessagesPage class={this.state.class}/>
+        </Route>
 
         return (
             <BrowserRouter>

@@ -12,14 +12,33 @@ export default class MessagesPage extends React.Component {
 
     render() {
         let tabs
-
         switch (this.props.class){
             case '1':{
-                tabs = null;
+                tabs =  <Tabs defaultActiveKey="1" id="uncontrolled-tab-example">
+                    <Tab eventKey="1" title="Кирилл">
+                        <Messages type={1}/>
+                    </Tab>
+                    <Tab eventKey="2" title="Дмитрий">
+                        <Messages type={2}/>
+                    </Tab>
+                    <Tab eventKey="3" title="Евгения">
+                        <Messages type={3}/>
+                    </Tab>
+                    <Tab eventKey="4" title="Дмитрий">
+                        <Messages type={4}/>
+                    </Tab>
+                </Tabs>
                 break;
             }
             case '2':{
-                tabs = null;
+                tabs =  <Tabs defaultActiveKey="1" id="uncontrolled-tab-example">
+                    <Tab eventKey="1" title="Кирилл">
+                        <Messages type={1}/>
+                    </Tab>
+                    <Tab eventKey="4" title="Глеб">
+                        <Messages type={4}/>
+                    </Tab>
+                </Tabs>
                 break;
             }
             case '3':{
@@ -27,7 +46,7 @@ export default class MessagesPage extends React.Component {
                     <Tab eventKey="1" title="Кирилл">
                         <Messages type={1}/>
                     </Tab>
-                    <Tab eventKey="4" title="Александр">
+                    <Tab eventKey="4" title="Глеб">
                         <Messages type={4}/>
                     </Tab>
                 </Tabs>
@@ -38,7 +57,7 @@ export default class MessagesPage extends React.Component {
                     <Tab eventKey="1" title="Кирилл">
                         <Messages type={1}/>
                     </Tab>
-                    <Tab eventKey="3" title="Евгения">
+                    <Tab eventKey="3" title="Глеб">
                         <Messages type={3}/>
                     </Tab>
                     <Tab eventKey="4" title="Александр">
