@@ -21,7 +21,6 @@ export default function WelcomePage(props) {
             <div className="bg-peach p-4">
                 <div className="bg-peach p-4 text-center">
                     <h2 className="mt-4">Добро пожаловать на дистанционный тур!</h2>
-                    <h3 className="mt-3">Тур будет доступен 02.12 с 09:00</h3>
                 </div>
                 <form className="my-form" onSubmit={handleSubmit(registerSubmit)}>
                     <div>
