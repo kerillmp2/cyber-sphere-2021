@@ -15,17 +15,11 @@ export default class MessagesPage extends React.Component {
         switch (this.props.class){
             case '1':{
                 tabs =  <Tabs defaultActiveKey="1" id="uncontrolled-tab-example">
-                    <Tab eventKey="1" title="Кирилл">
-                        <Messages type={1}/>
+                    <Tab eventKey="6" title="Вика">
+                        <Messages type={6}/>
                     </Tab>
-                    <Tab eventKey="2" title="Дмитрий">
-                        <Messages type={2}/>
-                    </Tab>
-                    <Tab eventKey="3" title="Евгения">
+                    <Tab eventKey="3" title="Дмитрий">
                         <Messages type={3}/>
-                    </Tab>
-                    <Tab eventKey="4" title="Дмитрий">
-                        <Messages type={4}/>
                     </Tab>
                 </Tabs>
                 break;
@@ -35,8 +29,11 @@ export default class MessagesPage extends React.Component {
                     <Tab eventKey="1" title="Кирилл">
                         <Messages type={1}/>
                     </Tab>
-                    <Tab eventKey="4" title="Глеб">
-                        <Messages type={4}/>
+                    <Tab eventKey="3" title="Дмитрий">
+                        <Messages type={3}/>
+                    </Tab>
+                    <Tab eventKey="6" title="Вика">
+                        <Messages type={6}/>
                     </Tab>
                 </Tabs>
                 break;
@@ -46,56 +43,65 @@ export default class MessagesPage extends React.Component {
                     <Tab eventKey="1" title="Кирилл">
                         <Messages type={1}/>
                     </Tab>
-                    <Tab eventKey="4" title="Глеб">
+                    <Tab eventKey="3" title="Дмитрий">
+                        <Messages type={3}/>
+                    </Tab>
+                    <Tab eventKey="4" title="Женя">
                         <Messages type={4}/>
+                    </Tab>
+                    <Tab eventKey="6" title="Вика">
+                        <Messages type={6}/>
                     </Tab>
                 </Tabs>
                 break;
             }
             case '4':{
                 tabs =  <Tabs defaultActiveKey="1" id="uncontrolled-tab-example">
-                    <Tab eventKey="1" title="Кирилл">
-                        <Messages type={1}/>
+                    <Tab eventKey="2" title="Кирилл">
+                        <Messages type={2}/>
                     </Tab>
-                    <Tab eventKey="3" title="Глеб">
+                    <Tab eventKey="3" title="Дмитрий">
                         <Messages type={3}/>
                     </Tab>
-                    <Tab eventKey="4" title="Александр">
+                    <Tab eventKey="4" title="Женя">
                         <Messages type={4}/>
+                    </Tab>
+                    <Tab eventKey="6" title="Вика">
+                        <Messages type={6}/>
                     </Tab>
                 </Tabs>
                 break;
             }
             case '5':{
                 tabs =  <Tabs defaultActiveKey="1" id="uncontrolled-tab-example">
-                    <Tab eventKey="1" title="Кирилл">
-                        <Messages type={1}/>
-                    </Tab>
-                    <Tab eventKey="2" title="Мария">
+                    <Tab eventKey="2" title="Кирилл">
                         <Messages type={2}/>
                     </Tab>
-                    <Tab eventKey="3" title="Евгения">
+                    <Tab eventKey="3" title="Дмитрий">
                         <Messages type={3}/>
                     </Tab>
-                    <Tab eventKey="4" title="Александр">
-                        <Messages type={4}/>
+                    <Tab eventKey="5" title="Женя">
+                        <Messages type={5}/>
+                    </Tab>
+                    <Tab eventKey="6" title="Вика">
+                        <Messages type={6}/>
                     </Tab>
                 </Tabs>
                 break;
             }
             case '6': {
                 tabs =  <Tabs defaultActiveKey="1" id="uncontrolled-tab-example">
-                    <Tab eventKey="1" title="Кирилл">
-                        <Messages type={1}/>
-                    </Tab>
-                    <Tab eventKey="2" title="Мария">
+                    <Tab eventKey="2" title="Кирилл">
                         <Messages type={2}/>
                     </Tab>
-                    <Tab eventKey="3" title="Евгения">
+                    <Tab eventKey="3" title="Дмитрий">
                         <Messages type={3}/>
                     </Tab>
-                    <Tab eventKey="4" title="Александр">
-                        <Messages type={4}/>
+                    <Tab eventKey="5" title="Женя">
+                        <Messages type={5}/>
+                    </Tab>
+                    <Tab eventKey="6" title="Вика">
+                        <Messages type={6}/>
                     </Tab>
                 </Tabs>
                 break;

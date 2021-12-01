@@ -25,14 +25,19 @@ export default class ProfilePage extends React.Component {
     render() {
 
         let posts = (<div>
-            <Post date="30/11/2021" innerText='Мой брат в эту субботу участвует в олимпиаде по'
-                  secondRow='кибербезопасности! Пожелаем ему удачи!'/>
+            <Post date="30/11/2021" innerText='Моя сестра в эту субботу участвует в олимпиаде по'
+                  secondRow='кибербезопасности! Пожелаем ей удачи!'/>
 
             <Post date="01/11/2021" innerText='Нас опять перевели на дистанционку...'
                   secondRow='#КовидУходи' image={post_1}/>
 
             <Post date="18/10/2021" innerText='А какой сегодня завтрак у вас?'
                   secondRow='#ЗОЖ' image={post_2}/>
+
+            <Post date="13/10/2021" innerText='Минутка интересных фактов! Пару слов можно записать'
+                  secondRow='множеством разных способов:'
+                  thirdRow='РазДва, раз-два, раз_два, РАЗДВА, РаЗдВа, раздва...'
+                  fouthRow='Если придумаете новый способ - пишите в комментарии!'/>
 
             <Post date="04/10/2021" innerText='Хоть уже и прохладно, я продолжаю бегать по утрам!'
                   secondRow='#ЗОЖ' image={post_run}/>
@@ -76,13 +81,17 @@ export default class ProfilePage extends React.Component {
 
             <Post date="22/06/2021" innerText='Я прошла тест "Какой вы житель океана?"'
                   secondRow='И знаете что? Я тюлень!'
-                  thirdRow='Почему-то я даже не удивлена'
+                  thirdRow='Меня так в детстве называла мама! Совпадение?'
                   image={post_tulen}/>
 
             <Post date="20/06/2021" innerText='Зачем пытаться понять искусство?'
                   secondRow='Вы же не пытаетесь понять, о чем поет птица.'
                   thirdRow='(С) Пабло Пикассо'
                   image={post_square}/>
+
+            <Post date="14/06/2021" innerText='У всех же есть любимое число?'
+                  secondRow='Моё, например, 16'
+                  thirdRow='Даже не знаю почему'/>
 
             <Post date="06/06/2021" innerText='Обязательно послушайте новый альбом группы'
                   secondRow='"Печенье с шоколадом"!'

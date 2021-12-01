@@ -19,100 +19,13 @@ export default class SubsPage extends React.Component {
         let cardDeck = (<CardDeck>
             <Group name="SimpleMath" description="Математика простым языком!" image={math}/>
             <Group name="КиберСфера" description="Турнир по компьютерной грамотности" image={cyber}/>
+            <Group name="Уютные коты" description="Картинки с котиками и не только!" image={kote}/>
+            <Group name="The World" description="Самые свежие мировые новости" image={world}/>
+            <Group name='Атлантида' description="Теории и обсуждения затерянной цивилизации" image={atlant}/>
+            <Group name='Космические знания' description="Интересные рассуждения о космосе" image={cosmos}/>
+            <Group name='Fun facts' description="Весёлые факты обо всём на свете" image={fun}/>
+            <Group name='"Печенье с шоколадом"' description="Фанатам музыкальной группы сюда!" image={cookie}/>
         </CardDeck>);
-
-        switch (this.props.class){
-            case '1':{
-                cardDeck = (
-                    <CardDeck>
-                        <Group name="SimpleMath" description="Математика простым языком!" image={math}/>
-                        <Group name="КиберСфера" description="Турнир по компьютерной грамотности" image={cyber}/>
-                        <Group name="Уютные коты" description="Картинки с котиками и не только!" image={kote}/>
-                        <Group name="The World" description="Самые свежие мировые новости" image={world}/>
-                        <Group name='Атлантида' description="Теории и обсуждения затерянной цивилизации" image={atlant}/>
-                        <Group name='Космические знания' description="Теории и обсуждения затерянной цивилизации" image={cosmos}/>
-                        <Group name='Fun facts' description="Весёлые факты обо всём на свете" image={fun}/>
-                        <Group name='"Печенье с шоколадом"' description="Фанатам музыкальной группы сюда!" image={cookie}/>
-                    </CardDeck>
-                );
-                break;
-            }
-            case '2':{
-                cardDeck = (
-                    <CardDeck>
-                        <Group name="SimpleMath" description="Математика простым языком!" image={math}/>
-                        <Group name="КиберСфера" description="Турнир по компьютерной грамотности" image={cyber}/>
-                        <Group name="Уютные коты" description="Картинки с котиками и не только!" image={kote}/>
-                        <Group name="The World" description="Самые свежие мировые новости" image={world}/>
-                        <Group name='Атлантида' description="Теории и обсуждения затерянной цивилизации" image={atlant}/>
-                        <Group name='Космические знания' description="Теории и обсуждения затерянной цивилизации" image={cosmos}/>
-                        <Group name='Fun facts' description="Весёлые факты обо всём на свете" image={fun}/>
-                        <Group name='"Печенье с шоколадом"' description="Фанатам музыкальной группы сюда!" image={cookie}/>
-                    </CardDeck>
-                );
-                break;
-            }
-            case '3':{
-                cardDeck = (
-                    <CardDeck>
-                        <Group name="SimpleMath" description="Математика простым языком!" image={math}/>
-                        <Group name="КиберСфера" description="Турнир по компьютерной грамотности" image={cyber}/>
-                        <Group name="Уютные коты" description="Картинки с котиками и не только!" image={kote}/>
-                        <Group name="The World" description="Самые свежие мировые новости" image={world}/>
-                        <Group name='Атлантида' description="Теории и обсуждения затерянной цивилизации" image={atlant}/>
-                        <Group name='Космические знания' description="Теории и обсуждения затерянной цивилизации" image={cosmos}/>
-                        <Group name='Fun facts' description="Весёлые факты обо всём на свете" image={fun}/>
-                        <Group name='"Печенье с шоколадом"' description="Фанатам музыкальной группы сюда!" image={cookie}/>
-                    </CardDeck>
-                );
-                break;
-            }
-            case '4':{
-                cardDeck = (
-                    <CardDeck>
-                        <Group name="SimpleMath" description="Математика простым языком!" image={math}/>
-                        <Group name="КиберСфера" description="Турнир по компьютерной грамотности" image={cyber}/>
-                        <Group name="Уютные коты" description="Картинки с котиками и не только!" image={kote}/>
-                        <Group name="The World" description="Самые свежие мировые новости" image={world}/>
-                        <Group name='Атлантида' description="Теории и обсуждения затерянной цивилизации" image={atlant}/>
-                        <Group name='Космические знания' description="Теории и обсуждения затерянной цивилизации" image={cosmos}/>
-                        <Group name='Fun facts' description="Весёлые факты обо всём на свете" image={fun}/>
-                        <Group name='"Печенье с шоколадом"' description="Фанатам музыкальной группы сюда!" image={cookie}/>
-                    </CardDeck>
-                );
-                break;
-            }
-            case '5':{
-                cardDeck = (
-                    <CardDeck>
-                        <Group name="SimpleMath" description="Математика простым языком!" image={math}/>
-                        <Group name="КиберСфера" description="Турнир по компьютерной грамотности" image={cyber}/>
-                        <Group name="Уютные коты" description="Картинки с котиками и не только!" image={kote}/>
-                        <Group name="The World" description="Самые свежие мировые новости" image={world}/>
-                        <Group name='Атлантида' description="Теории и обсуждения затерянной цивилизации" image={atlant}/>
-                        <Group name='Космические знания' description="Теории и обсуждения затерянной цивилизации" image={cosmos}/>
-                        <Group name='Fun facts' description="Весёлые факты обо всём на свете" image={fun}/>
-                        <Group name='"Печенье с шоколадом"' description="Фанатам музыкальной группы сюда!" image={cookie}/>
-                    </CardDeck>
-                );
-                break;
-            }
-            case '6':{
-                cardDeck = (
-                    <CardDeck>
-                        <Group name="SimpleMath" description="Математика простым языком!" image={math}/>
-                        <Group name="КиберСфера" description="Турнир по компьютерной грамотности" image={cyber}/>
-                        <Group name="Уютные коты" description="Картинки с котиками и не только!" image={kote}/>
-                        <Group name="The World" description="Самые свежие мировые новости" image={world}/>
-                        <Group name='Атлантида' description="Теории и обсуждения затерянной цивилизации" image={atlant}/>
-                        <Group name='Космические знания' description="Теории и обсуждения затерянной цивилизации" image={cosmos}/>
-                        <Group name='Fun facts' description="Весёлые факты обо всём на свете" image={fun}/>
-                        <Group name='"Печенье с шоколадом"' description="Фанатам музыкальной группы сюда!" image={cookie}/>
-                    </CardDeck>
-                );
-                break;
-            }
-        }
 
         return (
             <div className="bg-peach">

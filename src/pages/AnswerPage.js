@@ -16,27 +16,27 @@ export default function AnswerPage(props) {
 
         switch (props.class) {
             case '1': {
-                correctAnswer = "АННАОЗЁРСКАЯ02022003";
+                correctAnswer = "1507АТЛАНТИДА";
                 break;
             }
             case '2': {
-                correctAnswer = "Байкал2018";
+                correctAnswer = "ГОРНАЯ+78824511011";
                 break;
             }
             case '3': {
-                correctAnswer = "ARTEMIS02022003";
+                correctAnswer = "1009ТюЛеНь";
                 break;
             }
             case '4': {
-                correctAnswer = "Евгения1112";
+                correctAnswer = "печенье_с_шоколадом1707";
                 break;
             }
             case '5': {
-                correctAnswer = "02022003БИОЛОГИЯ";
+                correctAnswer = "Ьюыюъю";
                 break;
             }
             case '6': {
-                correctAnswer = "МАША+74441248965";
+                correctAnswer = "Бфьшёсфвшъ";
                 break;
             }
             default:
