@@ -10,6 +10,11 @@
       "StackName": "amplify-amplify0c149f5e4b2c4-staging-85833",
       "StackId": "arn:aws:cloudformation:us-east-2:001312463206:stack/amplify-amplify0c149f5e4b2c4-staging-85833/339b4030-4f60-11ec-8462-068f3b30bbfe",
       "AmplifyAppId": "d3jalyszojuez3"
+    },
+    "categories": {
+      "auth": {
+        "cybersphere20213f560656": {}
+      }
     }
   }
 }
