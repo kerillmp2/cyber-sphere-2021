@@ -106,14 +106,24 @@ export default class SimpleRouter extends React.Component {
         return (
             <BrowserRouter>
                 <div className="h-100">
+                    <Route path="/subs">
+                        <SubsPage class={this.state.class}/>
+                    </Route>
+
+                    {msg}
+
+                    <Route path="/profile">
+                        <ProfilePage class={this.state.class}/>
+                    </Route>
+
+                    <Route path="/answers">
+                        <AnswerPage class={this.state.class}
+                                    onSendAnswer={this.handleSendAnswer}/>
+                    </Route>
                     <Switch>
                         <Route path="/">
                             <div className="bg-peach h-100">
                                 <Header class={this.state.class}/>
-                                <div className="bg-peach p-4 text-center">
-                                    <h2>Дистанционный тур подошёл к концу!</h2>
-                                    <h3>Всем спасибо за участие!</h3>
-                                </div>
                                 <Footer/>
                             </div>
                         </Route>
